@@ -16,7 +16,7 @@ class bank:
     # function below this.  For example, user balances, PIN numbers
     # etc.
     #====================================================================
-
+    
   #====================================================================
   # TO DO: Modify the following function to handle the console input
   # Every time a user enters a command at the bank terminal, it comes
@@ -40,9 +40,9 @@ class bank:
   # and sends the same message back to the ATM.
   #====================================================================
   def handleRemote(self, inObject):
-    print("\nFrom ATM: ", inObject )
+    print("\nFrom ATM: ", "Hi" )
     # self.send(inObject)
-    self.send("This is a test of tabs")
+
 
 
   #====================================================================
